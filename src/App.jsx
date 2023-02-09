@@ -1,21 +1,20 @@
 import { useState } from 'react'
 import React from 'react'
+import Menu from './components/Menu'
+import Traits from './components/Traits'
+import Levels from './components/Levels'
 
 function App() {
 
-	//TODO Char constructor
+	// TODO Char constructor
 
   return (
 	<div className="App">
-		<div className="Menu-container">
-			{/* Menu component */}
-		</div>
+			<Menu />
 		<div className="main-container">
 			<div className="main-column-left">
-				//TODO Character traits component
-				//TODO Feats component
-				//TODO Combine traits / feats into Build component
-				{/* Build component*/}
+				<Traits />
+				<Levels />
 			</div>
 			<div className="main-column-right">
 				<div className="main-right-upper">

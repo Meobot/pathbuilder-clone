@@ -7,4 +7,17 @@
 
 body {
 	background-color: #171a1e;
+	color: aliceblue;
+}
+
+.Menu-container {
+	display: flex;
+}
+
+#menu-char-bar {
+	display: flex;
+}
+
+#menu-char-bar p {
+	margin: 0px 20px;
 }
