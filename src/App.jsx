@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import React from 'react'
 import Menu from './components/Menu'
-import Traits from './components/Traits'
-import Levels from './components/Levels'
+import Traits from './mern/components/Traits'
+import Levels from './mern/components/Levels'
 
 function App() {
 
